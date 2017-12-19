@@ -8,10 +8,10 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
     "autoload": {
-        "psr-4": {
-            "Codewars\\": "src/Codewars/"
-        }
+        "classmap": ["src"]
     }
 }
